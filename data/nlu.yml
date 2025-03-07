@@ -1,0 +1,184 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    #Anglais
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    #Français
+    - salut
+    - bonjour
+    - coucou
+    - salut à toi
+    - bon matin
+    - bonsoir
+    - salut (pour "moin")
+    - salut toi
+    - allons-y
+    - salut mec
+    - bonjour (goodmorning)
+    - bonsoir (goodevening)
+    - bon après-midi
+
+- intent: goodbye
+  examples: |
+    #Anglais
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    #Français
+    - à plus
+    - au revoir
+    - à plus tard
+    - bonne nuit
+    - bye
+    - au revoir
+    - bonne journée
+    - à bientôt
+    - bye bye
+    - à plus tard
+
+- intent: affirm
+  examples: |
+    #Anglais
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    #Français
+    - oui
+    - ouais
+    - en effet
+    - bien sûr
+    - ça me va
+    - exact
+
+- intent: deny
+  examples: |
+    #Anglais
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    #Français
+    - non
+    - non (version courte)
+    - jamais
+    - je ne pense pas
+    - ça ne me plaît pas
+    - aucune chance
+    - pas vraiment
+
+- intent: mood_great
+  examples: |
+    #Anglais
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    #Français
+    - parfait
+    - super
+    - génial
+    - je me sens comme un roi
+    - merveilleux
+    - je me sens très bien
+    - je suis génial
+    - je suis incroyable
+    - je vais sauver le monde
+    - hyper content
+    - extrêmement bien
+    - tellement parfait
+    - tellement bon
+    - absolument parfait
+
+- intent: mood_unhappy
+  examples: |
+    #Anglais
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+    #Français
+    - ma journée a été horrible
+    - je suis triste
+    - je ne me sens pas très bien
+    - je suis déçu
+    - super triste
+    - je suis tellement triste
+    - triste
+    - très triste
+    - malheureux
+    - pas bien
+    - pas très bien
+    - extrêmement triste
+    - tellement triste
+    - si triste
+
+- intent: bot_challenge
+  examples: |
+    #Anglais
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    #Français
+    - es-tu un bot ?
+    - es-tu un humain ?
+    - est-ce que je parle à un bot ?
+    - est-ce que je parle à un humain ?
+
+- intent: meteo
+  examples: |
+    #Anglais
+    - What's the meteo today ?
+    - Is it raining today ?
+    - Meteo ?
+    #Français
+    - Quelle est la météo aujourd'hui ?
+    - Est-ce qu'il pleut aujourd'hui ?
+    - météo ?

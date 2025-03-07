@@ -1,0 +1,38 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - meteo
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.icegif.com%2Fcat-50%2F&psig=AOvVaw0MPMsRoAWa9K_CvzBr6Qw4&ust=1741428635645000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMD3s63d94sDFQAAAAAdAAAAABAE"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_meteo:
+  - text: "It's raining today :("
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
